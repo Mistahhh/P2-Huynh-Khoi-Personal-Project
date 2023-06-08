@@ -117,11 +117,11 @@ public class PlayerMovement : MonoBehaviour
         readyToJump = true;
     }
 
-    void OnCollisionEnter(Collision collision)
+   void OnCollisionEnter(Collision collision)
     {
         if(collision.gameObject.CompareTag("Enemy"))
         {
             GameObject.Find("HP Slider").GetComponent<HealthBar>();
         }
-    }
+    } 
 }
