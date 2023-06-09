@@ -19,7 +19,7 @@ public class SpawnManager : MonoBehaviour
     public GameObject enemyPrefab;
     public GameObject enemytwoPrefab;
     public GameObject healthPrefab;
-    private float spawnRange = 20.0f;
+    private float spawnRange = 50.0f;
     public int enemyCount;
     public int waveNumber = 1;
 

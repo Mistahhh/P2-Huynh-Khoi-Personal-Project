@@ -909,6 +909,7 @@ GameObject:
   - component: {fileID: 4137515050599764499}
   - component: {fileID: 3731504538607784731}
   - component: {fileID: 4372396494254187892}
+  - component: {fileID: 485980570549315162}
   m_Layer: 0
   m_Name: DummyMesh
   m_TagString: Untagged
@@ -1090,6 +1091,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &485980570549315162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4137515050586100649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3496ad0d8349b6449d62ff208016ecf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: fc262390d736a9c47ab8cbe650685efc, type: 2}
 --- !u!1 &4137515050586100651
 GameObject:
   m_ObjectHideFlags: 0
